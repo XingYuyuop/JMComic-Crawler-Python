@@ -37,7 +37,12 @@ on:
         description: 压缩文件名称
         required: false
 
- 
+      UPLOAD_NAME:
+        type: string
+        default: Click me to download
+        description: 上传文件名称
+        required: false 
+
 
 #      JM_USERNAME:
 #        type: string
